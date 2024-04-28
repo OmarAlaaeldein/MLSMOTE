@@ -5,6 +5,7 @@ import pandas as pd
 import random
 from sklearn.datasets import make_classification
 from sklearn.neighbors import NearestNeighbors
+random.seed(77)
 
 def create_dataset(n_sample=1000):
     ''' 
