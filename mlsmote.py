@@ -124,6 +124,10 @@ class MLSMOTE:
         X=X.values
         y=y.values
         
+        assert X.shape[0] == y.shape[0], "X and y must have the same number of samples."
+        assert y.shape[1] == len(self.label_columns), "Number of columns in y must be equal to the number of label columns."
+        assert X.shape[1] == len(self.input_columns), "Number of columns in X must be equal to the number of input columns."
+        
         self.n_features_ = X.shape[1]
 
         self._validate_estimator()
