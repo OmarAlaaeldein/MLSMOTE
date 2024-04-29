@@ -13,8 +13,5 @@ For more information on MLSMOTE and its applications, please refer to:
 * [Handling Data Imbalance in Multi-Label Classification: MLSMOTE](https://medium.com/thecyphy/handling-data-imbalance-in-multi-label-classification-mlsmote-531155416b87)
 * [Imbalanced-learn: MLSMOTE implementation](https://github.com/scikit-learn-contrib/imbalanced-learn/blob/70e1f966414cdf9425d764c52a0a92d99c732051/imblearn/over_sampling/_mlsmote.py)
 
-## Installation
-[Insert installation instructions here]
-
 ## Usage
-[Insert examples or usage guidelines here]
+Provided in `example.py` file.
